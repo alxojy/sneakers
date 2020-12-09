@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import mainStyles from '../components/styles';
 
 // data for shoes in the home page
+// reference: https://github.com/cherucole/Daily-Design-Challenges
 export const shoes = [
     {
         id: 0,

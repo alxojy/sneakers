@@ -8,7 +8,7 @@ import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 
 export default function FavouritePage(props) {
     const favourites = useSelector(state => state.Favourites).favourites;
-    console.log(favourites)
+
     return (
         <SafeAreaView style={mainStyles.container}>
             <View style={mainStyles.header}>
